@@ -237,3 +237,60 @@
     margin-top: 10px;
     font-size: 20px;
 }
+
+#single-box {
+    width: 284px;
+    margin: 100px auto;
+}
+
+#single-box .single-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#single-box .single-img {
+    max-width: 250px;
+}
+
+#single-box .single-img img {
+    width: 100%;
+}
+
+#single-box .single-shop {
+    color: rgb(16, 16, 16);
+    background: rgba(82, 195, 3, 0.15);
+    padding: 8px 14px 8px 14px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: work sans;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin: 10px;
+}
+
+#single-box .discount {
+    color: rgb(16, 16, 16);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: work sans;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#single-box .describe {
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-size: 12px;
+    font-family: work sans;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
